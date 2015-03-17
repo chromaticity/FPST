@@ -1,0 +1,23 @@
+input#politics {
+    display: block;
+    margin: 0em 5em 2em;
+    position: relative;
+}
+input#politics:before {
+    content: "1 (Very Conservative)";
+    width: 5em;
+    position: absolute;
+    left: -5em;
+}
+input#politics:after {
+    content: "7 (Very Liberal)";
+    width: 5em;
+    position: absolute;
+    right: -5em;
+}
+label.question {
+    font-weight: bold;
+}
+input {
+    margin-left: 2em;
+}
